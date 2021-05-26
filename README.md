@@ -39,7 +39,7 @@ See [Related tools](#related-tools) for deriving and using multisignature wallet
 
 ### Generate blocks
 
-On Banano has a `previous` field set to the block hash of the previous block.
+On Banano blocks have a `previous` field set to the block hash of the previous block.
 
 By generating multiple blocks with `previous` set to the same block hash, only one of those blocks can be confirmed.
 
