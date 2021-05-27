@@ -73,7 +73,7 @@ A receive block will change the block hash for the frontier of the account, inva
 
 When designing algorithms using Option Select you have to be careful to include receive blocks in all branches.
 
-Otherwise you might send BAN to the multisignature wallet, and before the send is confirmed, a new branch is confirmed on the multisignature wallet.
+Otherwise you might send BAN to the multisignature wallet, and while the send is getting confirmed, a new branch is confirmed on the multisignature wallet.
 
 If there's no pre-signed receive block for that branch, you have to rely on the other party signing blocks trustfully since now you can't verify the blocks before sending.
 
