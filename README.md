@@ -2,7 +2,7 @@
 
 An algorithm for creating branching paths of blocks on Block Lettuce.
 
-Using Option Select you can build useful things, such as a BAN/BAN vending machine, trustless BAN/BAN atomic swaps, an Escrow Agreement, or a mixer.
+Using Option Select you can build useful things, such as a BAN/BAN vending machine, trustless BAN/BAN atomic swaps, or less fun things like Escrow Agreements and mixers.
 
 Several blocks are co-signed with the same `previous` block hash in a multisignature wallet. When one of those blocks is confirmed, the other blocks are invalidated.
 
